@@ -31,4 +31,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "gsicuto-whysoserious-pi"
-          entrypoint: "./app.js" # TODO: update entrypoint
+          entrypoint: "npm start" # TODO: update entrypoint
